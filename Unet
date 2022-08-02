@@ -1,2 +1,20 @@
 # UNET
-<img src="https://miro.medium.com/max/1400/1*qNdglJ1ORP3Gq77MmBLhHQ.png>
+
+U-Net은 Biomedical 분야에서 이미지 분할(Image Segmentation)을 목적으로 제안된 End-to-End 방식의 Fully-Convolutional Network 기반 모델이다.
+
+네트워크 구성의 형태(‘U’)로 인해 U-Net이라는 이름이 붙여졌다.
+![Alt text](https://miro.medium.com/max/1400/1*qNdglJ1ORP3Gq77MmBLhHQ.png)
+
+U-Net은 이미지의 전반적인 컨텍스트 정보를 얻기 위한 네트워크와 정확한 지역화(Localization)를 위한 네트워크가 대칭 형태로 구성되어 있다.
+
+![Alt text](https://miro.medium.com/max/1400/1*i_MUV1KAoILdjS_u6sAfCw.png)
+
+Contracting Path — 수축 단계
+
+![Alt text](https://miro.medium.com/max/1400/1*4BVF-6Mdpp-Z_4KBbg2dyQ.png)
+
+Expanding Path — 팽창 단계
+
+
+
+
